@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>objテスト</title>
+		<script>
+            var obj = {
+                name:"TEST1",
+                action1: function(param2,param3){
+                    console.log(this.name + "テスト");
+                    console.log(param2);
+                    console.log(param3);
+                    }
+            };
+            var obj2 = {
+                name:"TEST2"
+            }
+            var array1 = [10,20];
+            obj.action1(array1);
+            var array2 = [30,40];
+            obj.action1.apply(obj2,array2);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

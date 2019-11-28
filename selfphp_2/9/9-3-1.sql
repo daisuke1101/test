@@ -1,0 +1,1 @@
+UPDATE book SET price = price / 1.08;

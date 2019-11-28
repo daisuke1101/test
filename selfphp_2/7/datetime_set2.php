@@ -1,0 +1,5 @@
+<?php
+$now = new DateTime();  // 
+$now->setDate(2010,6,25);
+$now->setTime(14,70,59);
+print $now->format('Y年m月d日 H:i:s');

@@ -1,0 +1,1 @@
+SELECT title, price, publish, published FROM book WHERE publish = '翔泳社' ORDER BY price, published DESC;

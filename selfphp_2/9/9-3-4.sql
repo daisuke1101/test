@@ -1,0 +1,1 @@
+SELECT uid,unam FROM usr WHERE unam LIKE '山田%';

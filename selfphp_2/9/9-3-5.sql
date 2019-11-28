@@ -1,0 +1,1 @@
+SELECT publish, avg(price) FROM book GROUP BY publish;

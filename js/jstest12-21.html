@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>JQueryテスト</title>
+		<script src="jquery-3.4.1.min.js">
+        </script>
+        <script>
+            $(function(){
+                $("input[value='orange']").removeAttr("checked");
+            });
+        </script>
+	</head>
+	<body>
+		<input type="checkbox" name="fruits" value="apple" checked>りんご
+		<input type="checkbox" name="fruits" value="orange" checked>みかん
+		<input type="checkbox" name="fruits" value="grape" checked>ぶどう
+	</body>
+</html>

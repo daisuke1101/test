@@ -1,0 +1,1 @@
+DELETE FROM book WHERE price >= 2500 AND published < '2009-04-01';

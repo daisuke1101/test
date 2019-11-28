@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>JQueryテスト</title>
+		<script src="jquery-3.4.1.min.js">
+        </script>
+        <script>
+            $(function(){
+                $("#btn")
+                .on("click",Test1)
+                .on("click",Test2);
+            });
+            function Test1(){
+                console.log("テスト１です");
+            }
+            function Test2(){
+                alert("テスト２です");
+            }
+        </script>
+	</head>
+	<body>
+        <button id="btn">クリック</button>
+	</body>
+</html>
